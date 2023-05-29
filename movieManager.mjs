@@ -128,7 +128,7 @@ export async function searchAndFilter(rl) {
 export async function fetchMovieData(rl) {
   rl.question('Enter movie title to search: ', async (title) => {
     try {
-      const response = await fetch(`http://www.omdbapi.com/?t=${encodeURIComponent(title)}&apikey=YOUR_API_KEY`);
+      const response = await fetch(`https://anilistmikilior1v1.p.rapidapi.com/createThread=${encodeURIComponent(title)}&apikey=a4f129f80amsh13f65e4fc99cadbp146a82jsne1a43bb43377`);
       const data = await response.json();
       if (data.Response === 'True') {
         const movie = {

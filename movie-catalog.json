@@ -1,8 +1,14 @@
 [
   {
-    "title": "one piece",
-    "director": "mapa",
-    "releaseYear": "2001",
-    "genre": "2002"
+    "title": "one pice",
+    "director": "mappa",
+    "releaseYear": "2002",
+    "genre": "2003"
+  },
+  {
+    "title": "aot",
+    "director": "mappa",
+    "releaseYear": "2005",
+    "genre": "2005"
   }
 ]

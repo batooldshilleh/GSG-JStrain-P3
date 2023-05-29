@@ -17,10 +17,10 @@ function displayMenu() {
   console.log('0. Exit');
   console.log('=========================');
 }
+displayMenu();
 
 function startApp() {
-  displayMenu();
-
+  
   rl.question('Enter your choice: ', async (choice) => {
     switch (choice) {
       case '1':
